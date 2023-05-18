@@ -4,6 +4,7 @@ class MYList
   def initialize(list)
     @list = list
   end
+
   def each(&block)
     @list.each(&block)
   end
